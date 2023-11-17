@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>megha arts</title>
+  
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+               body {
+    font-family: Arial, sans-serif;
+
+    
+}
+
+
+nav {
+      
+      
+    
+     position:;
+  //top: 0;
+   //  width: cover;
+      max-widt1100h:px;
+      height: 100%;
+      margin-left: -8px;
+      margin-top: -8px;
+      margin-right: -8px;
+      background-color: #34495e;
+ border-radius:0 0  20px 20px;
+ //     font-size: 0;
+      margin-bottom: -10px;
+      text-align: center;
+      padding: 3px 0 2px;
+    }
+    
+    nav a {
+      line-height: 40px;
+      height: 50%;
+      font-size: 15px;
+      display: inline-block;
+  //    position: relative;
+      z-index: 1;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+    
+    }
+    a:nth-child(1) {
+      width: 85px;
+    }
+    
+    a:nth-child(2) {
+      width: 125px;
+    }
+    
+    a:nth-child(3) {
+      width: 135px;
+    }
+    
+    
+    
+        .lt {
+            text-decoration: line-through 1px solid black;
+          color:red  
+        }
+        .lt1 {
+            color: green
+        }
+        .typ {
+        font-family: times;
+            color: dodgerblue;
+            font-size: 20px;
+            text-align: justify;
+            text-indent: 50px;
+          font-weight:medium
+          
+        }
+        .ma {color:white;
+            text-shadow: 1px 1px 2px black,0 0 10px blue,0 0 25px darkblue, 0 0 4px red
+         
+        }
+        
+        .carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+}
+
+.carousel-slide img {
+  width: 80%;
+  height: auto;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 7px 12px;
+  border-radius: 25px
+}
+
+.carousel-button-prev {
+  left: 10px;
+}
+
+.carousel-button-next {
+  right: 10px;
+}
+img {
+            height: 350px;
+            width: 340px;
+            max-height: 370px;
+            max-width:340px;
+            display: block;
+            margin: auto
+           }
+           .ops {
+         color:white;
+        background:#4070fe;
+               text-align:center;
+               border-radius: 20px;
+               margin-bottom:4px;
+               padding: 3px;
+               width: 310px;
+               margin-left:auto;
+              margin-right:auto; 
+              justify-content:center;
+              align-item: center;
+         transition: all.6s ease-out 
+           }
+              .icon fa fa-pencil {
+          //  font-size: 30px;
+          //  color: hotpink;
+         //   display: inline-block;
+         //   vertical-align: top;
+          //  animation: blink 5s infinite;
+        }
+
+        @keyframes blink {
+        50% { opacity: 0; }
+        }
+    .typed-text {
+       display: none;
+      
+        }
+        
+      .typed-text-output {
+      color: hotpink;
+      margin-left: 5px;
+      margin-bottom:-35px;
+      font-family: times;
+      margin-top: -30px;
+  //    border-radius: 15px;
+      padding: 8px;
+      text-align: center;
+      font-size: 30px
+      }
+     .on {
+         text-align: center;
+         color:white;
+      //  background: red;
+       border:3px solid yellow;
+         border-radius: 70px 10px 70px 10px;
+        width: 100px;
+         margin: auto;
+         margin-bottom: -6px;
+         font-size:29px;
+     }
+     
+     .ofi {
+         text-align: center;
+         color:white;
+      //  background: red;
+       border:3px solid yellow;
+        border-radius:70px 10px 70px 10px;
+   
+        width: 180px;
+         margin: auto;
+         margin-bottom: 13px;
+         font-size:29px;
+      
+     }
+  
+     input [type="text"] {
+         font-size: 25px
+     }
+     label {
+      display: block;
+      margin-bottom:10px;
+      }
+
+  input[type="number"] {
+      width: 90%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+      border: 1px solid grey;
+      outline: none
+      }
+      input[type="text"] {
+      width: 90%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+      border: 1px solid grey;
+      outline: none
+      }
+      .ob {
+      width: 45%;
+      padding: 5px;
+      border-radius: 20px;
+      font-size: 25px;
+      border: none;
+      color: white;
+      background: #4caf50;
+      tect-align: center
+    
+    
+      }
+  
+ .container {
+      max-width: 400px;
+      margin: 10px auto;
+      background-color:grey;
+      padding: 20px;
+      border-radius: 45px;
+      text-align: center;
+      color: white;
+      font-size:20px
+      }
+      
+      .container1 {
+      width:290px;
+      
+      max-width: 400px;
+      margin: 10px auto;
+      background-color: grey;
+      opacity: 0.9;
+      padding: 20px;
+      padding-bottom: 30px;
+      border-radius: 45px;
+      text-align: center;
+      color: white;
+      font-size:20px
+      }
+      .ob {
+          opacity: 1
+      }
+      footer {
+    
+    
+    color: green ;
+    text-align: center;
+  margin-bottom: -15px;  
+  border:2px solid #4e4e4e;   
+  border-radius: 60px 60px 0 0;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 1px
+}
+ .follow {
+      color: white;
+      text-align: center;
+      font-size: 21px;
+      margin-bottom: 5px;
+      margin-top: -3px;
+      font-weight: bold;
+      background: #007bff;
+    //  #3bb143;
+      width: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 30px
+  }
+  .icon {
+          font-size: 26px;
+          text-decoration: none;
+       //  margin-left: 110px;
+         
+  }
+        .icons1 {
+ 
+    display: flex;
+   // width:260px;
+ //max-width: 500px;
+ margin: auto;
+ text-align: center;
+ margin-bottom: -15px;
+ text-align: center;
+ //background: white;
+ border-radius: 10px;
+// mix-blend-mode: color-burn
+ 
+ 
+
+ 
+        }
+     .cal {
+         color: coral;
+      //   font-family: times 
+         
+        
+     }
+     .M {
+         font-size: 21px;
+         #3bb143
+     }
+     
+a {
+    margin:auto;
+    margin-bottom: 4px
+}
+.cf {
+    color:white;
+    background: hotpink;
+    border-radius: 20px;
+    text-align: center;
+    width: 310px;
+    margin:auto;
+    margin-bottom: 4px;
+    padding: 3px
+}
+
+#pi{
+ 
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+    .cys {
+        color: brown ;
+     //   text-align: center;
+      //  background: brown;
+        opacity: 0.9;
+        border-radius: 20px
+      
+    }
+    
+.ul1 {
+    color: green;
+    font-size: 19px;
+ //   font-weight: bold;
+ font-family: times
+}
+.IO {
+    color: coral;
+    text-align: center
+}
+ .io {
+     font-size: 20px;
+     color: green;
+     text-indent: 20px;
+     font-weight: bold;
+     font-family: times;
+    border:2px solid dodgerblue;
+    padding: 10px;
+    border-radius: 25px;
+    // background: dodgerblue;
+    // text-align: justify
+ }
+ .fab {
+     color: white
+ }
+ .ul2 {
+     text-align: left
+ }
+ .order {
+     color:white;
+     font-size: 20px
+ }
+    </style>
+    
+    <style>
+         .carousel-container {
+            width: 340px; /* Adjust the width as needed */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel {
+            display: flex;
+            height:370px;
+       
+            animation: carousel-animation 22s linear infinite; /* Adjust duration as needed */
+        }
+
+        .carousel img {
+            width: 100%; /* Make images fill the container */           border-radius:20px;
+        }
+
+        @keyframes carousel-animation {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-514%); }
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <nav>
+    <a  style="background:#3898db;border-radius:30px;border:1px solid white">Home</a>
+    <a href="#on" style="background:;border-radius:30px;border:1px solid whit">Order Now</a>
+    <a href="#cs" style="background:;border-radius:30px;border:1px solid whit">Contact Us</a>
+    
+  </nav> 
+    <h2>
+            <span class="typed-text-output"></span><span class="icon fa fa-pencil" style="color:#3bb143;font-size:24px "></span>
+        </h2>
+    <h1 class="typed-text">MEGHA ARTS</h1>
+    <h2 class="cal">
+     Customized Arts With Love <span class="fa fa-heart"></span>
+    </h2>
+    <p class="typ">
+        Turn your photo into a 100% Handmade Pencil Sketch with Free Home Delivery Throughout India for Just <span class="lt">Rs1500</span> <span class="lt1">Rs999/-</span> only.
+    </p>
+    <h2 class="cys">Characteristics Of Our Sketch</h2>
+    <ul class="ul1">
+     <li> An ideal, distinctive, and unforgettable present for your loved ones. </li> <li>surprise your friends or relatives with a personalized sketch or portrait. </li>
+        <li>100% handmade sketch with premium quality.</li>
+        <li>crafted entirely by professional artist.</li>
+        <li>Your satisfaction is our goal</li>
+    </ul>
+    <h2 class="ops">Our Pencil Sketches</h2>
+    
+    
+   
+       
+        
+        
+        <div class="carousel-container">
+        <div class="carousel">
+            <img src="p1.jpg" alt="Image 1">
+            <img src="p2.jpg" alt="Image 2">
+            <img src="p3.jpg" alt="Image 3">
+            <!-- Duplicate images for continuous loop -->
+            <img src="p4.jpg" alt="Image 1">
+           
+            <img src="p6.jpg" alt="Image 3">
+          
+            <img src="p7.jpg" alt="Image 2">
+         
+            
+          <img src="p9.jpg" alt="Image 2">
+        </div>
+    </div>
+        
+        
+         <div id="on"></div>
+<div class="container1"><h1 class="ofi">Order Now</h1>
+<ul class="ul2"><li> Click this below order button. </li> <li>Then you will be redirected to 'megha arts' instagram page.  </li>  <li>After that you can chat with us about your sketch and order from there. </li></ul>
+<a href="https://instagram.com/__megha_arts__?igshid=MzRlODBiNWFlZA=="><button class="ob"> Order <i class="order fa fa-cart-shopping"></i></button></a></div> <br>
+<h2 class="cf"> Customer Reviews </h2>
+<div class="carousel-container">
+    <div class="carousel-track" id="carouselTrack3">
+      <!-- Images for carousel 2 -->
+      <div class="carousel-slide">
+        <img src="cf.jpg" alt="Image 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="pic1.jpg" alt="Image 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="pic1.jpg" alt="Image 3">
+      </div>
+    </div>
+    <button class="carousel-button carousel-button-prev" id="prevButton3">❮</button>
+    <button class="carousel-button carousel-button-next" id="nextButton3">❯</button>
+  </div>
+ 
+ 
+ </div>
+
+ <footer>
+           
+           
+           
+        <h2 style ="text-decoration: underline;text-decoration-color: ;color:red;margin-top:1px" id="cs">Contact Us </h2>
+            <div style="font-size:18px">
+            <p class="M"><span class="icon fa fa-pencil" id="pi" style="color:hotpink;font-size:21px "></span> Meghana <span class="icon fa fa-paint-brush" style="color:hotpink;font-size:21px "></span></p> 
+            <p class="M">
+            <span class="icon fas fa-envelope" style="color:#333;font-size:21px "></span> meghaarts@gmail.com </p>  
+            </div>
+            
+                <p class="follow">Follow Us On:</p>
+        
+    <div class="icons1">   <a href="https://instagram.com/__megha_arts__?igshid=MzRlODBiNWFlZA==" class="icon fab fa-instagram" style="color: #c13584;font-size:35px"></a> 
+     </div>
+            
+        <p style="margin-bottom:1px"> &copy; megha arts. All rights reserved.</p>
+    </footer> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var typed_strings = document.querySelector('.typed-text').innerText;
+                var typedTextOutput = document.querySelector('.typed-text-output');
+                var cursor = document.querySelector('.typed-cursor');
+
+                var typed = new Typed('.typed-text-output', {
+                    strings: typed_strings.split(', '),
+                    typeSpeed: 120,
+                    backSpeed: 80,
+                    smartBackspace: false,
+                    loop: true,
+                    cursorChar: '',
+                    showCursor: false
+                });
+
+               
+            }); 
+        </script>
+
+    
+</body>
+</html>
