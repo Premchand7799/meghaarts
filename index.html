@@ -1,521 +1,383 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>megha arts</title>
-  
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megha Arts | Custom Art & Sketches</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons
+     --> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     
+     
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-               body {
-    font-family: Arial, sans-serif;
-
-    
-}
-
-
-nav {
-      
-      
-    
-     position:;
-  //top: 0;
-   //  width: cover;
-      max-widt1100h:px;
-      height: 100%;
-      margin-left: -8px;
-      margin-top: -8px;
-      margin-right: -8px;
-      background-color: #34495e;
- border-radius:0 0  20px 20px;
- //     font-size: 0;
-      margin-bottom: -10px;
-      text-align: center;
-      padding: 3px 0 2px;
-    }
-    
-    nav a {
-      line-height: 40px;
-      height: 50%;
-      font-size: 15px;
-      display: inline-block;
-  //    position: relative;
-      z-index: 1;
-      text-decoration: none;
-      text-transform: uppercase;
-      text-align: center;
-      color: white;
-      cursor: pointer;
-    
-    }
-    a:nth-child(1) {
-      width: 85px;
-    }
-    
-    a:nth-child(2) {
-      width: 125px;
-    }
-    
-    a:nth-child(3) {
-      width: 135px;
-    }
-    
-    
-    
-        .lt {
-            text-decoration: line-through 1px solid black;
-          color:red  
-        }
-        .lt1 {
-            color: green
-        }
-        .typ {
-        font-family: times;
-            color: dodgerblue;
-            font-size: 20px;
-            text-align: justify;
-            text-indent: 50px;
-          font-weight:medium
-          
-        }
-        .ma {color:white;
-            text-shadow: 1px 1px 2px black,0 0 10px blue,0 0 25px darkblue, 0 0 4px red
-         
-        }
-        
-        .carousel-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.carousel-track {
-  display: flex;
-  transition: transform 0.3s ease;
-}
-
-.carousel-slide {
-  flex: 0 0 100%;
-}
-
-.carousel-slide img {
-  width: 80%;
-  height: auto;
-}
-
-.carousel-button {
-  position: absolute;
-  top: 35%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 18px;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 7px 12px;
-  border-radius: 25px
-}
-
-.carousel-button-prev {
-  left: 10px;
-}
-
-.carousel-button-next {
-  right: 10px;
-}
-img {
-            height: 350px;
-            width: 340px;
-            max-height: 370px;
-            max-width:340px;
-            display: block;
-            margin: auto
-           }
-           .ops {
-         color:white;
-        background:#4070fe;
-               text-align:center;
-               border-radius: 20px;
-               margin-bottom:4px;
-               padding: 3px;
-               width: 310px;
-               margin-left:auto;
-              margin-right:auto; 
-              justify-content:center;
-              align-item: center;
-         transition: all.6s ease-out 
-           }
-              .icon fa fa-pencil {
-          //  font-size: 30px;
-          //  color: hotpink;
-         //   display: inline-block;
-         //   vertical-align: top;
-          //  animation: blink 5s infinite;
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
         }
 
-        @keyframes blink {
-        50% { opacity: 0; }
-        }
-    .typed-text {
-       display: none;
-      
+.typed-text {
+       display: none;      
         }
         
       .typed-text-output {
       color: hotpink;
       margin-left: 5px;
       margin-bottom:-35px;
-      font-family: times;
+      font-family:times;
       margin-top: -30px;
-  //    border-radius: 15px;
       padding: 8px;
       text-align: center;
-      font-size: 30px
-      }
-     .on {
-         text-align: center;
-         color:white;
-      //  background: red;
-       border:3px solid yellow;
-         border-radius: 70px 10px 70px 10px;
-        width: 100px;
-         margin: auto;
-         margin-bottom: -6px;
-         font-size:29px;
-     }
-     
-     .ofi {
-         text-align: center;
-         color:white;
-      //  background: red;
-       border:3px solid yellow;
-        border-radius:70px 10px 70px 10px;
-   
-        width: 180px;
-         margin: auto;
-         margin-bottom: 13px;
-         font-size:29px;
-      
-     }
-  
-     input [type="text"] {
-         font-size: 25px
-     }
-     label {
-      display: block;
-      margin-bottom:10px;
+      font-size: 30px;
+      font-weight:bold;
       }
 
-  input[type="number"] {
-      width: 90%;
-      padding: 10px;
-      border-radius: 20px;
-      font-size: 20px;
-      border: 1px solid grey;
-      outline: none
-      }
-      input[type="text"] {
-      width: 90%;
-      padding: 10px;
-      border-radius: 20px;
-      font-size: 20px;
-      border: 1px solid grey;
-      outline: none
-      }
-      .ob {
-      width: 45%;
-      padding: 5px;
-      border-radius: 20px;
-      font-size: 25px;
-      border: none;
-      color: white;
-      background: #4caf50;
-      tect-align: center
-    
-    
-      }
-  
- .container {
-      max-width: 400px;
-      margin: 10px auto;
-      background-color:grey;
-      padding: 20px;
-      border-radius: 45px;
-      text-align: center;
-      color: white;
-      font-size:20px
-      }
-      
-      .container1 {
-      width:290px;
-      
-      max-width: 400px;
-      margin: 10px auto;
-      background-color: grey;
-      opacity: 0.9;
-      padding: 20px;
-      padding-bottom: 30px;
-      border-radius: 45px;
-      text-align: center;
-      color: white;
-      font-size:20px
-      }
-      .ob {
-          opacity: 1
-      }
-      footer {
-    
-    
-    color: green ;
-    text-align: center;
-  margin-bottom: -15px;  
-  border:2px solid #4e4e4e;   
-  border-radius: 60px 60px 0 0;
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: 1px
-}
- .follow {
-      color: white;
-      text-align: center;
-      font-size: 21px;
-      margin-bottom: 5px;
-      margin-top: -3px;
-      font-weight: bold;
-      background: #007bff;
-    //  #3bb143;
-      width: 150px;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 30px
-  }
-  .icon {
-          font-size: 26px;
-          text-decoration: none;
-       //  margin-left: 110px;
-         
-  }
-        .icons1 {
- 
-    display: flex;
-   // width:260px;
- //max-width: 500px;
- margin: auto;
- text-align: center;
- margin-bottom: -15px;
- text-align: center;
- //background: white;
- border-radius: 10px;
-// mix-blend-mode: color-burn
- 
- 
-
- 
+        /* Custom styles for animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
-     .cal {
-         color: coral;
-      //   font-family: times 
-         
-        
-     }
-     .M {
-         font-size: 21px;
-         #3bb143
-     }
-     
-a {
-    margin:auto;
-    margin-bottom: 4px
-}
-.cf {
-    color:white;
-    background: hotpink;
-    border-radius: 20px;
-    text-align: center;
-    width: 310px;
-    margin:auto;
-    margin-bottom: 4px;
-    padding: 3px
-}
-
-#pi{
+        .fade-in.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .slide-up {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .slide-up.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .carousel-track {
+            transition: transform 0.5s ease-in-out;
+        }
+  
+ #contact {
+     border-radius: 50px 50px 0 0
+ } 
  
+ #pi{
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH";
-}
-    .cys {
-        color: brown ;
-     //   text-align: center;
-      //  background: brown;
-        opacity: 0.9;
-        border-radius: 20px
-      
-    }
-    
-.ul1 {
-    color: green;
-    font-size: 19px;
- //   font-weight: bold;
- font-family: times
-}
-.IO {
-    color: coral;
-    text-align: center
-}
- .io {
-     font-size: 20px;
-     color: green;
-     text-indent: 20px;
-     font-weight: bold;
-     font-family: times;
-    border:2px solid dodgerblue;
-    padding: 10px;
-    border-radius: 25px;
-    // background: dodgerblue;
-    // text-align: justify
- }
- .fab {
-     color: white
- }
- .ul2 {
-     text-align: left
- }
- .order {
-     color:white;
-     font-size: 20px
- }
+}       
     </style>
-    
-    <style>
-         .carousel-container {
-            width: 340px; /* Adjust the width as needed */
-            overflow: hidden;
-            position: relative;
-        }
-
-        .carousel {
-            display: flex;
-            height:370px;
-       
-            animation: carousel-animation 22s linear infinite; /* Adjust duration as needed */
-        }
-
-        .carousel img {
-            width: 100%; /* Make images fill the container */           border-radius:20px;
-        }
-
-        @keyframes carousel-animation {
-            0% { transform: translateX(0%); }
-            100% { transform: translateX(-514%); }
-        }
-    </style>
-    
-    
 </head>
-<body>
-    <nav>
-    <a  style="background:#3898db;border-radius:30px;border:1px solid white">Home</a>
-    <a href="#on" style="background:;border-radius:30px;border:1px solid whit">Order Now</a>
-    <a href="#cs" style="background:;border-radius:30px;border:1px solid whit">Contact Us</a>
-    
-  </nav> 
-    <h2>
+<body class="overflow-x-hidden">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-gray-900 text-white rounded-b-2xl shadow-2xl">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center flex-wrap">
+           
+            <div class="flex items-center space-x-4 md:space-x-8 text-sm md:text-base">
+                <a href="#home" class="p-3 hover:bg-gray-700 hover:text-white-500 rounded-full transition-all duration-300">Home</a>
+                <a href="#about" class="p-3 hover:bg-gray-700 hover:text-white-500 rounded-full transition-all duration-300">About</a>
+                <a href="#pricing" class="p-3 hover:bg-gray-700 hover:text-white-500 rounded-full transition-all duration-300">Pricing</a>
+                <a href="#contact" class="p-3 hover:bg-gray-700 hover:text-white-500 rounded-full transition-all duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+<h2>
             <span class="typed-text-output"></span><span class="icon fa fa-pencil" style="color:#3bb143;font-size:24px "></span>
         </h2>
     <h1 class="typed-text">MEGHA ARTS</h1>
-    <h2 class="cal">
-     Customized Arts With Love <span class="fa fa-heart"></span>
-    </h2>
-    <p class="typ">
-        Turn your photo into a 100% Handmade Pencil Sketch with Free Home Delivery Throughout India for Just <span class="lt">Rs1500</span> <span class="lt1">Rs999/-</span> only.
-    </p>
-    <h2 class="cys">Characteristics Of Our Sketch</h2>
-    <ul class="ul1">
-     <li> An ideal, distinctive, and unforgettable present for your loved ones. </li> <li>surprise your friends or relatives with a personalized sketch or portrait. </li>
-        <li>100% handmade sketch with premium quality.</li>
-        <li>crafted entirely by professional artist.</li>
-        <li>Your satisfaction is our goal</li>
-    </ul>
-    <h2 class="ops">Our Pencil Sketches</h2>
-    
-    
-   
-       
-        
-        
-        <div class="carousel-container">
-        <div class="carousel">
-            <img src="p1.jpg" alt="Image 1">
-            <img src="p2.jpg" alt="Image 2">
-            <img src="p3.jpg" alt="Image 3">
-            <!-- Duplicate images for continuous loop -->
-            <img src="p4.jpg" alt="Image 1">
-           
-            <img src="p6.jpg" alt="Image 3">
-          
-            <img src="p7.jpg" alt="Image 2">
-         
-            
-          <img src="p9.jpg" alt="Image 2">
-        </div>
-    </div>
-        
-        
-         <div id="on"></div>
-<div class="container1"><h1 class="ofi">Order Now</h1>
-<ul class="ul2"><li> Click this below order button. </li> <li>Then you will be redirected to 'megha arts' instagram page.  </li>  <li>After that you can chat with us about your sketch and order from there. </li></ul>
-<a href="https://instagram.com/__megha_arts__?igshid=MzRlODBiNWFlZA=="><button class="ob"> Order <i class="order fa fa-cart-shopping"></i></button></a></div> <br>
-<h2 class="cf"> Customer Reviews </h2>
-<div class="carousel-container">
-    <div class="carousel-track" id="carouselTrack3">
-      <!-- Images for carousel 2 -->
-      <div class="carousel-slide">
-        <img src="cf.jpg" alt="Image 1">
-      </div>
-      <div class="carousel-slide">
-        <img src="pic1.jpg" alt="Image 2">
-      </div>
-      <div class="carousel-slide">
-        <img src="pic1.jpg" alt="Image 3">
-      </div>
-    </div>
-    <button class="carousel-button carousel-button-prev" id="prevButton3">❮</button>
-    <button class="carousel-button carousel-button-next" id="nextButton3">❯</button>
-  </div>
- 
- 
- </div>
 
- <footer>
-           
-           
-           
-        <h2 style ="text-decoration: underline;text-decoration-color: ;color:red;margin-top:1px" id="cs">Contact Us </h2>
-            <div style="font-size:18px">
-            <p class="M"><span class="icon fa fa-pencil" id="pi" style="color:hotpink;font-size:21px "></span> Meghana <span class="icon fa fa-paint-brush" style="color:hotpink;font-size:21px "></span></p> 
-            <p class="M">
-            <span class="icon fas fa-envelope" style="color:#333;font-size:21px "></span> meghaarts@gmail.com </p>  
+    <main class="container mx-auto px-4 py-8 md:py-16">
+<!-- Nav bar Section -->
+        <section id="home" class="flex flex-col items-center justify-center text-center py-12 md:py-24 fade-in">
+            <div class="p-6 md:p-10 bg-gray-800 rounded-3xl shadow-lg relative">
+                <div class="absolute inset-0 bg-gray-800 rounded-3xl opacity-50"></div>
+                <div class="relative z-10">                           
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-2">
+                        <span id="typed-output" class="text-pink-500"></span>
+                    </h1>                
+                    <h2 class="text-xl md:text-3xl font-semibold text-green-500 mb-4">
+                     Customized Arts With <br>
+                     <i class="fas fa-heart text-pink-700 animate-pulse ml-2"> </i>  Love<i class="fas fa-heart text-pink-700 animate-pulse ml-2"> </i>
+                    </h2>
+                    <p class="text-base md:text-lg text-white font-medium max-w-2xl mx-auto mb-6">
+                        Turn your photo into a 100% Handmade Pencil Sketch with Free Home Delivery Throughout India for Just
+                        <span class="line-through text-red-500">Rs 1500</span> <span class="text-green-500 font-bold">Rs 999/-</span> only.
+                    </p>
+                    <a href="#order" class="inline-block px-4 py-3 bg-gradient-to-r from-teal-500 to-green-500 hover:scale-105 transition-transform duration-300 text-white font-semibold rounded-full shadow-lg">
+                        Order Now <i class="fas fa-shopping-cart ml-2"></i>
+                    </a>
+                </div>
             </div>
+        </section>
+ 
+        <!-- Characteristics Section -->
+        <section id="features" class="py-12 md:py-16 fade-in">
+            <div class="bg-gray-800 p-6 md:p-10 rounded-3xl shadow-lg">
+                <h2 class="text-xl md:text-3xl font-bold text-amber-300 text-center mb-6">
+                    Characteristics Of Our Sketch
+                </h2>
+                <ul class="space-y-4 text-sm md:text-base font-medium text-white-800 list-disc list-inside">
+                    <li>An ideal, distinctive, and unforgettable present for your loved ones.</li>
+                    <li>Surprise your friends or relatives with a personalized sketch or portrait.</li>
+                    <li>100% handmade sketch with premium quality.</li>
+                    <li>Crafted entirely by professional artists.</li>
+                    <li>Your satisfaction is our goal.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-12 md:py-16 slide-up">
+            <div class="bg-gray-800 p-6 md:p-10 rounded-3xl shadow-xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-300 mb-6">About Us</h2>
+                <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-12">
+                    <div class="md:w-1/2">
+                        <img src="Images/meghaArtsLogo.jpg" alt="Megha Arts Logo" class="rounded-3xl shadow-lg w-full">
+                    </div>
+                    <div class="md:w-1/2 text-gray-300 space-y-4">
+                        <p>
+                            Megha Arts is a passion project dedicated to creating personalized, handmade art. We believe every photo holds a special memory, and our mission is to transform those moments into timeless, physical works of art.
+                        </p>
+                        <p>
+                            Each sketch is crafted with meticulous care by professional artists, ensuring every detail is captured with love and precision. We use only premium quality materials to deliver a piece you will cherish for a lifetime.
+                        </p>
+                        <p>
+                            Your satisfaction is our ultimate goal. Let us help you surprise your loved ones with a gift that is as unique and special as they are.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Art Categories Section -->
+        <section id="art" class="py-12 md:py-16 slide-up">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-300 mb-8">Our Art Categories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-800 p-6 rounded-3xl text-center shadow-lg hover:scale-105 transition-transform duration-300">
+                    <i class="fas fa-pencil-ruler text-6xl text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2 text-white">Pencil Sketches</h3>
+                    <p class="text-sm text-gray-400">Our signature offering. Detailed and realistic sketches from your photos.</p>
+                </div>                
+                <div class="bg-gray-800 p-6 rounded-3xl text-center shadow-lg hover:scale-105 transition-transform duration-300">
+                    <i class="fas fa-fire-alt text-6xl text-orange-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2 text-white">Charcoal Sketches</h3>
+                    <p class="text-sm text-gray-400">Timeless and elegant, charcoal sketches offer a dramatic, classic look.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Sketches Carousel Section -->
+        <section class="py-12 md:py-16 slide-up">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-300 mb-8">Our Pencil Sketches</h2>
+            <div class="relative w-full max-w-2xl mx-auto overflow-hidden rounded-3xl shadow-xl">
+                <div id="sketches-carousel" class="carousel-track flex">
+                    <!-- Placeholder images for sketches -->
+                    <img src="Images/i9.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 1">
+                    <img src="Images/i2.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 2">
+                    <img src="Images/i3.jpg" class="w-full flex-shrink-0 p-2" alt="Sketch 3">
+                    <img src="Images/i4.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 4">
+                    <img src="Images/i5.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 5">
+                    <img src="Images/i6.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 5">
+      <img src="Images/i7.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 5">
+      <img src="Images/i8.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 5">            
+      <img src="Images/i1.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 5"> 
+      <img src="Images/i10.jpg" class="w-full flex-shrink-0 object-cover p-2" alt="Sketch 5">
+    </div>
+                <button id="prev-sketch" class="absolute top-1/2 -translate-y-1/2 left-4 p-2 md:p-3 text-white bg-gray-900 bg-opacity-50 rounded-full hover:bg-opacity-80 transition-all duration-300">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next-sketch" class="absolute top-1/2 -translate-y-1/2 right-4 p-2 md:p-3 text-white bg-gray-900 bg-opacity-50 rounded-full hover:bg-opacity-80 transition-all duration-300">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="py-12 md:py-16 slide-up">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-300 mb-8">Pricing</h2>
+            <div class="flex flex-col md:flex-row justify-center items-stretch space-y-8 md:space-y-0 md:space-x-8">
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl border border-gray-700 flex flex-col justify-between hover:border-blue-500 transition-colors duration-300">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Basic Sketch</h3>
+                        <p class="text-gray-400 mb-4">Ideal for a single person or pet portrait.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>1 Subject</li>
+                            <li>A4 Size (8.3" x 11.7")</li>
+                            <li>High-quality paper</li>
+                            <li>Free Shipping</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 text-center">
+                        <p class="text-3xl font-bold text-green-500">₹999</p>
+                        <a href="#order" class="mt-4 block px-6 py-3 bg-gradient-to-r from-teal-500 to-green-500 hover:scale-105 transition-transform duration-300 text-white font-semibold rounded-full">Order Now</a>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl border border-gray-700 flex flex-col justify-between hover:border-blue-500 transition-colors duration-300">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Couple Sketch</h3>
+                        <p class="text-gray-400 mb-4">Perfect for couples or two subjects.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>2 Subjects</li>
+                            <li>A3 Size (11.7" x 16.5")</li>
+                            <li>High-quality paper</li>
+                            <li>Free Shipping</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 text-center">
+                        <p class="text-3xl font-bold text-green-500">₹1499</p>
+                        <a href="#order" class="mt-4 block px-6 py-3 bg-gradient-to-r from-teal-500 to-green-500 hover:scale-105 transition-transform duration-300 text-white font-semibold rounded-full">Order Now</a>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-3xl shadow-xl border border-gray-700 flex flex-col justify-between hover:border-blue-500 transition-colors duration-300">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Family Portrait</h3>
+                        <p class="text-gray-400 mb-4">For groups of 3 to 5 subjects.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Up to 5 Subjects</li>
+                            <li>Custom Size</li>
+                            <li>High-quality paper</li>
+                            <li>Free Shipping</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 text-center">
+                        <p class="text-3xl font-bold text-green-500">₹2499</p>
+                        <a href="#order" class="mt-4 block px-6 py-3 bg-gradient-to-r from-teal-500 to-green-500 hover:scale-105 transition-transform duration-300 text-white font-semibold rounded-full">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section class="py-12 md:py-16 slide-up">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-300 mb-8">Customer Reviews</h2>
+            <div class="relative w-full max-w-2xl mx-auto overflow-hidden rounded-3xl shadow-xl">
+                <div id="reviews-carousel" class="carousel-track flex">
+        <!-- Placeholder images for reviews -->
+                    <img src="Images/r2.jpg" class="w-full flex-shrink-0 p-2" alt="Review 1">
+                    <img src="Images/r1.jpg" class="w-full flex-shrink-0 p-2" alt="Review 2">
+                    <img src="Images/r3.jpg" class="w-full flex-shrink-0 p-2" alt="Review 3">
+                    <img src="Images/r4.jpg" class="w-full flex-shrink-0 p-2" alt="Review 2">
+                    <img src="Images/r5.jpg" class="w-full flex-shrink-0 p-2" alt="Review 3">
+                </div>
+                <button id="prev-review" class="absolute top-1/2 -translate-y-1/2 left-4 p-2 md:p-3 text-white bg-gray-900 bg-opacity-50 rounded-full hover:bg-opacity-80 transition-all duration-300">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next-review" class="absolute top-1/2 -translate-y-1/2 right-4 p-2 md:p-3 text-white bg-gray-900 bg-opacity-50 rounded-full hover:bg-opacity-80 transition-all duration-300">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-12 md:py-16 slide-up">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-amber-300 mb-8">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="accordion-item bg-gray-800 rounded-2xl shadow-lg border border-gray-700">
+                    <button class="accordion-header flex justify-between items-center w-full p-6 text-lg font-semibold text-white">
+                        <span>How long does it take to create a sketch?</span>
+                        <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0 text-gray-300">
+                        The creation time depends on the complexity and size. Typically, a single-subject sketch takes 5-7 business days. We will provide an estimated timeline when you place your order.
+                    </div>
+                </div>
+                <div class="accordion-item bg-gray-800 rounded-2xl shadow-lg border border-gray-700">
+                    <button class="accordion-header flex justify-between items-center w-full p-6 text-lg font-semibold text-white">
+                        <span>What kind of photo do you need?</span>
+                        <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content hidden p-6 pt-0 text-gray-300">
+                        For the best result, we require a high-resolution, clear photo with good lighting. The better the photo, the more detailed the sketch will be!
+                    </div>
+                </div>
+ 
             
-                <p class="follow">Follow Us On:</p>
-        
-    <div class="icons1">   <a href="https://instagram.com/__megha_arts__?igshid=MzRlODBiNWFlZA==" class="icon fab fa-instagram" style="color: #c13584;font-size:35px"></a> 
-     </div>
-            
-        <p style="margin-bottom:1px"> &copy; megha arts. All rights reserved.</p>
-    </footer> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-        <script>
+<div class="accordion-item bg-gray-800 rounded-2xl shadow-lg border border-gray-700">
+    <button class="accordion-header flex justify-between items-center w-full p-6 text-lg font-semibold text-white">
+        <span>Can I request changes or see progress updates?</span>
+        <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
+    </button>
+    <div class="accordion-content hidden p-6 pt-0 text-gray-300">
+        Yes! We send you a preview of the sketch for your approval before we finalize the artwork and ship it. Minor adjustments can be made at this stage to ensure you are completely satisfied with the result.
+    </div>
+</div>
+<div class="accordion-item bg-gray-800 rounded-2xl shadow-lg border border-gray-700">
+    <button class="accordion-header flex justify-between items-center w-full p-6 text-lg font-semibold text-white">
+        <span>What payment methods do you accept?</span>
+        <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
+    </button>
+    <div class="accordion-content hidden p-6 pt-0 text-gray-300">
+        We accept various secure payment methods, including UPI (like Google Pay, PhonePe, and Paytm), bank transfers, and other online payment options. Details will be provided during the ordering process on our Instagram page.
+    </div>
+</div>
+<div class="accordion-item bg-gray-800 rounded-2xl shadow-lg border border-gray-700">
+    <button class="accordion-header flex justify-between items-center w-full p-6 text-lg font-semibold text-white">
+        <span>Is framing included with the sketch?</span>
+        <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
+    </button>
+    <div class="accordion-content hidden p-6 pt-0 text-gray-300">
+        The base price for our sketches does not include a frame. However, we can offer a framed option for an additional cost. Please mention your interest in framing when you contact us for your order.
+    </div>
+</div>
+<div class="accordion-item bg-gray-800 rounded-2xl shadow-lg border border-gray-700">
+    <button class="accordion-header flex justify-between items-center w-full p-6 text-lg font-semibold text-white">
+        <span>Can I get a sketch of a pet?</span>
+        <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
+    </button>
+    <div class="accordion-content hidden p-6 pt-0 text-gray-300">
+        Absolutely! We love sketching pets. Just send us a clear, high-quality photo of your furry friend, and we'll create a beautiful portrait for you.
+    </div>
+</div>                   
+     </section>
+
+    <!-- Order Now Section -->
+        <section id="order" class="py-12 md:py-16 slide-up">
+            <div class="bg-gradient-to-r from-blue-700 to-indigo-700 p-8 rounded-3xl shadow-xl text-center text-white">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4">Ready to Order?</h1>
+                <p class="text-sm md:text-lg text-left mb-6 list-disc list-inside space-y-2 max-w-md mx-auto">
+                    The quickest way to get started is by chatting with us directly. Click the button below to be redirected to our Instagram page, where you can share your photo and discuss your custom art.
+                </p>
+                <a href="https://www.instagram.com/__megha_arts__?igsh=NHRreG12ZnMweXN3" target="_blank" class="inline-block px-8 py-4 bg-white hover:scale-105 transition-transform duration-300 text-blue-700 font-semibold rounded-full shadow-lg">
+                    Order via Instagram <i class="fab fa-instagram ml-2"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white p-6 md:p-8 rounded-t-2xl shadow-2xl text-center">
+        <h2 class="text-2xl font-bold mb-4 underline decoration-amber-300 underline-offset-4">Contact Us</h2>
+        <div class="space-y-4 mb-6 text-gray-300">
+            <p class="text-lg">
+                <i class="fas fa-paint-brush text-pink-500 mr-2" id="pi"></i> Meghana
+                <i class="fas fa-pencil-alt text-pink-500 ml-2"></i>
+            </p>
+            <p class="text-lg">
+                <i class="fas fa-envelope text-gray-500 mr-2"></i> meghananunnagoppula@gmail.com
+            </p>
+        </div>
+        <p class="text-xl font-bold mb-4 text-white">Follow Us On:</p>
+        <div class="flex justify-center items-center space-x-6 text-3xl mb-4">
+            <a href="https://instagram.com/your_instagram_handle" target="_blank" class="text-pink-500 hover:text-pink-400 transition-colors duration-300">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <p class="text-sm text-gray-500">
+            &copy; <span id="current-year"></span> Megha Arts. All rights reserved.
+        </p>
+    </footer>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+ 
+<script>
             document.addEventListener("DOMContentLoaded", function () {
                 var typed_strings = document.querySelector('.typed-text').innerText;
                 var typedTextOutput = document.querySelector('.typed-text-output');
@@ -529,12 +391,86 @@ a {
                     loop: true,
                     cursorChar: '',
                     showCursor: false
-                });
-
-               
+                });               
             }); 
         </script>
+ <script>
+    window.onload = function() {
 
-    
+        // Initialize the carousels
+        function setupCarousel(containerId, prevButtonId, nextButtonId) {
+            const track = document.getElementById(containerId);
+            const prevButton = document.getElementById(prevButtonId);
+            const nextButton = document.getElementById(nextButtonId);
+            if (!track || !prevButton || !nextButton) return;
+
+            const slides = Array.from(track.children);
+            let currentSlide = 0;
+
+            const updateCarousel = () => {
+                track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            };
+
+            const nextSlide = () => {
+                currentSlide = (currentSlide + 1) % slides.length;
+                updateCarousel();
+            };
+
+            const prevSlide = () => {
+                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                updateCarousel();
+            };
+
+            nextButton.addEventListener('click', nextSlide);
+            prevButton.addEventListener('click', prevSlide);
+        }
+
+        setupCarousel('sketches-carousel', 'prev-sketch', 'next-sketch');
+        setupCarousel('reviews-carousel', 'prev-review', 'next-review');
+
+        // Fade-in effect on scroll
+            const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1  
+        }; 
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in, .slide-up').forEach(section => {
+            observer.observe(section);
+        });
+
+        // FAQ 
+        document.querySelectorAll('.accordion-header').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+
+        // Close all other accordions
+                document.querySelectorAll('.accordion-content').forEach(item => {
+                    if (item !== content && !item.classList.contains('hidden')) {
+                        item.classList.add('hidden');
+                        item.previousElementSibling.querySelector('i').classList.remove('rotate-180');
+                    }
+                });
+
+         // Toggle the clicked accordion
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Set current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    };
+</script>  
 </body>
 </html>
